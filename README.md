@@ -1,4 +1,4 @@
-## 1 
-Author classification from book samples
-## 2
-Sentiment classification from imdb reviews
+## Independent models
+Author and sentiment classification trained independently.
+## Multitask model
+Trained as a multitask learning model.
