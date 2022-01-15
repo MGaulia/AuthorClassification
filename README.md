@@ -1,4 +1,16 @@
+## Datasets
+### For authors classification
+https://archive.ics.uci.edu/ml/datasets/Victorian+Era+Authorship+Attribution <br>
+In total it has 53678 rows and 50 different authors <br>
+We simplified the task to 2990 rows and 4 different authors
+
+### For imdb sentiment classification
+https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews <br>
+In total it has 49582 rows and 2 label: positive and negative <br>
+We simplified the task to 3000 rows
+
 ## Independent models
-Author and sentiment classification trained independently.
+2 separately trained models
+
 ## Multitask model
-Trained as a multitask learning model.
+One model with 2 heads: author classification and imdb sentiment
