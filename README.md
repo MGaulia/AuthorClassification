@@ -14,3 +14,19 @@ We simplified the task to 3000 rows
 
 ## Multitask model
 One model with 2 heads: author classification and imdb sentiment
+
+## Results
+### Authors
+<pre>
+  48.   0.   0.   0.   <br>
+  1.   20.   0.   0.   <br>
+  1.   0.   4.   1.   <br>
+  2.   8.   0.   64.   <br>
+  Accuracy: 0.91
+</pre>  
+### Imdb
+<pre>
+  70.   7.   <br>
+  4.   69.   <br>
+  Accuracy: 0.93
+</pre>
